@@ -591,6 +591,7 @@ checkPackageAndInstall "curl" "1"
 checkPackageAndInstall "unzip" "1"
 #checkPackageAndInstall "sing-box" "1"
 checkPackageAndInstall "opera-proxy" "1"
+echo "222222222"
 checkPackageAndInstall "youtubeUnblock" "1"
 
 ###########
