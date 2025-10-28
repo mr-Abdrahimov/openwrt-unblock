@@ -582,9 +582,6 @@ opkg update
 
 checkPackageAndInstall "coreutils-base64" "1"
 
-encoded_code="IyEvYmluL3NoCgojINCn0YLQtdC90LjQtSDQvNCIyEvYmluL3NoCgojINCn0YLQtdC90LjQtSDQvNC+0LTQtdC70Lgg0LjQtyDRhNCw0LnQu9CwCm1vZGVsPSQoY2F0IC90bXAvc3lzaW5mby9tb2RlbCk="
-eval "$(echo "$encoded_code" | base64 --decode)"
-
 #проверка и установка пакетов AmneziaWG
 install_awg_packages
 
